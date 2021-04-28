@@ -41,7 +41,7 @@ export default class Buttons extends React.Component {
             return this.props.setNewState(price);
           }
         }}
-        className="col-3 col-sm-3 col-md btn btn-primary m-1">
+        className="col-3 col-sm-3 col-md btn btn-primary m-1 p-1">
         {el}
       </button>
     ));

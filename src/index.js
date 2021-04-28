@@ -50,7 +50,7 @@ class MainComponent extends React.Component {
         let personalClient = client;
         return resultCreator(obj[personalClient]);
       });
-      return <div className="row bg-dark justify-content-md-center">{resultData}</div>;
+      return <div className="row justify-content-between p-1 m-1">{resultData}</div>;
     }
     if(type === 'video'){
 
